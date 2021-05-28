@@ -21,7 +21,6 @@ public class POIUtil {
 
     public static final String excelPath2 = "src/main/resources/公司人员信息已经申请授权码的统计清单.xlsx";
     private static final String excelPath = "src/main/resources/公司人员信息统计清单.xlsx";
-    private static final String GET_EXCEL_PATH150_WRITE = "src/main/resources/神州信息第2次数币测试150人清单_write.xlsx";
     private static final String sheetName1 = "科捷物流";
     private static final String sheetName2 = "神州信息";
     private static final String sheetName3 = "神州数码";
