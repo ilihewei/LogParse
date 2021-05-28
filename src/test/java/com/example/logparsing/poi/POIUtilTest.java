@@ -30,7 +30,13 @@ public class POIUtilTest {
     public void whenSheetsThenUpdateCellValue(){
         //当一个文件有多个sheet，操作
         poiUtil.updateSheetRowData();
+        poiUtil.printlnData();
        // Assert.assertEquals(flag,true);
+    }
+
+    @Test
+    public void whenLoadingThenPrintln(){
+
     }
 
 

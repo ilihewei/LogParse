@@ -50,7 +50,7 @@ public class LogParseUtil {
         int phoneIndex = tempStr.indexOf(telephonePhoneSting);
         int nameIndex = tempStr.indexOf(userNameString);
         String phone = tempStr.substring(tempStr.length() - 11);
-        System.out.println(phone);
+       // System.out.println(phone);
       //  String userName = tempStr.substring(nameIndex + 3, phoneIndex - 3);
         phones.add(phone);
       //  System.out.println(phones.size()+"=========log");
