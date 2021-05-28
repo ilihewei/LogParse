@@ -53,6 +53,7 @@ public class POIUtil {
         phones.addAll(Parse150.phones150);
     }
 
+    //获得log和150人的交集
     public void retainAll() {
         Parse150.phones150.retainAll(LogParseUtil.phones);
         Iterator<String> iterator = Parse150.phones150.iterator();
@@ -129,7 +130,6 @@ public class POIUtil {
                 }
             }
         }
-        //   this.removeAll();
         return true;
     }
 
